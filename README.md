@@ -25,15 +25,14 @@ Additionally, **Loan Status**, a binary variable, was used as the output variabl
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+* **Logistic Regression Model Performance:**
+  * The model had an accuracy score of **99%**
+  * **Healthy Loan Predictions**
+    * **Precision:** _100%_
+    * **Recall:** _100%_
+  * **High-Rish Loan Predictions**
+    * **Precision:** _87%_
+    * **Recall:** _98%_
 
 ## Summary
 
