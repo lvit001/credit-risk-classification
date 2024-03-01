@@ -21,7 +21,7 @@ Additionally, **Loan Status**, a binary variable, was used as the output variabl
 * [x] A logistic regression model was instantiated using `LogisticRegression` with a solver of `lbfgs` and 200 max iterations.
 * [x] The training data was fitted to the logistic regression model.
 * [x] The model was used to make predictions based on the testing input data.
-* [x] The predictions were compared to the testing output data utilizing a confusion matrix and a classification report.
+* [x] The predictions were compared to the testing output data utilizing a `confusion_matrix` and a `classification_report`.
 
 ## Results
 
