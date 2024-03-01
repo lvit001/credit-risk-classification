@@ -4,7 +4,7 @@
 
 ## Overview of the Analysis
 
-This analysis aims to create a supervised machine learning model that can predict the status of a potential loan as *healthy* or *high-risk*. The following features were used as input variables to develop the model:
+This analysis aims to create a supervised machine learning model that can predict the status of potential loans as *healthy* or *high-risk*. The following features were used as input variables to develop the model:
 
 * **Loan Size**
 * **Interest Rate**
