@@ -4,15 +4,15 @@
 
 The purpose of this analysis is to create a supervised machine learning model that can predict the status of a potential loan as *healthy* or *high-risk*. The following features were used as input variables to develop the model:
 
-* Loan Size
+*** Loan Size
 * Interest Rate
 * Borrower Income
 * Debt to Income Ratio
 * Number of Accounts
 * Derogatory Marks
-* Total Debt
+* Total Debt**
 
-Additionally, Loan Status, a binary variable, was used as the output variable. The following steps were taken to develop and train the model:
+Additionally, **Loan Status**, a binary variable, was used as the output variable. The following steps were taken to develop and train the model:
 
 * The input and output features were split into training and testing data using `train_test_split`.
 * The input training and testing data sets were scaled using `StandardScaler`.
