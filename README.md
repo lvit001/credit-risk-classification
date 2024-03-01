@@ -1,5 +1,7 @@
 # Module 20 Report: Credit Risk Logistic Regression Model
 
+![image](https://github.com/lvit001/credit-risk-classification/assets/140283164/a3d7e75b-b727-4423-8737-4b093413aab4) [Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fburgosandbrein.com%2FFactors-and-How-to-Avoid-Them-3564442.html&psig=AOvVaw2B-rO60fph4Pk8A92Q3elk&ust=1709416737061000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJjlid2H1IQDFQAAAAAdAAAAABAE)
+
 ## Overview of the Analysis
 
 The purpose of this analysis is to create a supervised machine learning model that can predict the status of a potential loan as *healthy* or *high-risk*. The following features were used as input variables to develop the model:
