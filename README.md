@@ -1,4 +1,4 @@
-# Module 12 Report Template
+# Module 20 Report: Credit Risk Logistic Regression Model
 
 ## Overview of the Analysis
 
