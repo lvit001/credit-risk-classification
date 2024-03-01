@@ -4,7 +4,7 @@
 
 ## Overview of the Analysis
 
-The purpose of this analysis is to create a supervised machine learning model that can predict the status of a potential loan as *healthy* or *high-risk*. The following features were used as input variables to develop the model:
+This analysis aims to create a supervised machine learning model that can predict the status of a potential loan as *healthy* or *high-risk*. The following features were used as input variables to develop the model:
 
 * **Loan Size**
 * **Interest Rate**
@@ -36,9 +36,4 @@ Additionally, **Loan Status**, a binary variable, was used as the output variabl
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
-
+Overall, the machine learning model performed well with an accuracy score of 99%. For this analysis, it is more important for the model to successfully predict high-risk loans to avoid potential borrowers defaulting on their loans. While the model does a great job of identifying healthy loans, it performed slightly worse at predicting high-risk loans. The model had a very high recall ability for high-risk loans, meaning it had very few false negative predictions (loans that were actually high-risk being identified as healthy). This supports the purpose of the model in identifying potential risks. On the other hand, precision was lower at 87%, meaning there was a higher number of false positive predictions (loans that were actually healthy being identified as high-risk). While this isn't a great finding, it is preferable for the model to be overcautious with its predictions. Therefore, I would recommend that the bank utilize this model as it does a satisfactory job of identifying high-risk borrowers. There is still room to improve the model in terms of avoiding incorrectly identifying healthy borrowers as high-risk. Perhaps different machine learning models could be tested as well to see if there is a better option.
