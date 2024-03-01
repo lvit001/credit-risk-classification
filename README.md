@@ -25,7 +25,7 @@ Additionally, **Loan Status**, a binary variable, was used as the output variabl
 
 ## Results
 
-**Logistic Regression Model Performance:**
+### Logistic Regression Model Performance:
   * **Model Accuracy Score:** _99%_
   * **Healthy Loan Predictions**
     * **Precision:** _100%_
