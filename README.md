@@ -14,12 +14,12 @@ The purpose of this analysis is to create a supervised machine learning model th
 
 Additionally, **Loan Status**, a binary variable, was used as the output variable. The following steps were taken to develop and train the model:
 
-* The input and output features were split into training and testing data using `train_test_split`.
-* The input training and testing data sets were scaled using `StandardScaler`.
-* A logistic regression model was instantiated using `LogisticRegression` with a solver of `lbfgs` and 200 max iterations.
-* The training data was fitted to the logistic regression model.
-* The model was used to make predictions based on the testing input data.
-* The predictions were compared to the testing output data utilizing a confusion matrix and a classification report.
+* [x] The input and output features were split into training and testing data using `train_test_split`.
+* [x] The input training and testing data sets were scaled using `StandardScaler`.
+* [x] A logistic regression model was instantiated using `LogisticRegression` with a solver of `lbfgs` and 200 max iterations.
+* [x] The training data was fitted to the logistic regression model.
+* [x] The model was used to make predictions based on the testing input data.
+* [x] The predictions were compared to the testing output data utilizing a confusion matrix and a classification report.
 
 ## Results
 
