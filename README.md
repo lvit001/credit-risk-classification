@@ -2,13 +2,24 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+The purpose of this analysis is to create a supervised machine learning model that can predict the status of a potential loan as *healthy* or *high-risk*. The following features were used as input variables to develop the model:
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+* Loan Size
+* Interest Rate
+* Borrower Income
+* Debt to Income Ratio
+* Number of Accounts
+* Derogatory Marks
+* Total Debt
+
+Additionally, Loan Status, a binary variable, was used as the output variable. The following steps were taken to develop and train the model:
+
+* The input and output features were split into training and testing data using `train_test_split`.
+* The input training and testing data sets were scaled using `StandardScaler`.
+* A logistic regression model was instantiated using `LogisticRegression` with a solver of `lbfgs` and 200 max iterations.
+* The training data was fitted to the logistic regression model.
+* The model was used to make predictions based on the testing input data.
+* The predictions were compared to the testing output data utilizing a confusion matrix and a classification report.
 
 ## Results
 
